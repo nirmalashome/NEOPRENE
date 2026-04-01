@@ -1,0 +1,210 @@
+body {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: #fff;
+    max-width: 1280px;
+    margin: auto;
+}
+a {
+  color: inherit; /* blue colors for links too */
+  text-decoration: inherit; /* no underline */
+}
+#header {
+    position: relative;
+    background: url(images/header-bg.png);
+    width: 100%;
+    height: 49.5vh;
+    background-size: cover;
+}
+
+#headerContent {
+    margin: 0;
+    padding: 0 20px;
+    position: absolute;
+    height: 20vh;
+    bottom:10%;
+}
+
+#tagline {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 64px;
+}
+
+#subline {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    font-family: "Instrument Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    color: #fff;
+}
+
+#headerCta {
+    margin: 0;
+    margin-top: 10px;
+    margin-left: 10px;
+    padding: 10px;
+    display: inline-block;
+    width: 30%;
+    font-size: 32px;
+    text-align: center;
+    background-color: #000;
+    text-transform: uppercase;
+}
+
+#logo {
+    display: block;
+    float: left;
+    margin: 0;
+    margin-top: 10px;
+    margin-left: 10px;
+    padding: 0;
+    width: 100px;
+    height: 100px;
+    background: url(images/logo.png);
+    background-size: cover;
+}
+
+#features {
+    margin: 0;
+    padding: 5vw;
+    float: left;
+    width: auto;
+    height: 50vh;
+    background: #000;
+    font-size: 32px;
+    color: #fff;
+}
+
+.feature {
+    margin: 0;
+    margin-top: 5vh;
+    padding: 0;
+    float: left;
+    width: 33.3%;
+}
+
+.featureTitle{
+    font-size: 24px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.featureDescription {
+    font-size: 20px;
+    text-align: center;
+}
+
+#featuresTagline {
+    font-size: 24px;
+}
+
+#feature1 .featureImage {
+    background: url(images/feature1.png);
+}
+
+#feature2 .featureImage {
+    background: url(images/feature2.png);
+}
+
+#feature3 .featureImage {
+    background: url(images/feature3.png);
+}
+
+.featureImage {
+    height: 20vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#overview {
+    margin: 0;
+    padding: 0;
+    float: left;
+    width: 100%;
+    height: 55vw;
+    background: url(images/overview.png);
+    background-size: cover;
+    font-size: 2.5vh;
+    color: #000;
+    text-align: center;
+}
+
+#overviewTitle {
+    margin-top: 5px;
+}
+
+#workwithus {
+    margin: 0;
+    padding: 5vw;
+    float: left;
+    width: auto;
+    background: url(images/workwithus-bg.png);
+    background-size: cover;
+}
+
+#workTitle {
+    text-align: center;
+    font-size: 32px;
+}
+
+.posibility {
+    margin: 0;
+    margin-top: 5vh;
+    padding: 0;
+    float: left;
+    width: 33.3%;
+}
+
+.posibilityTitle {
+    font-size: 2.5vw;
+    width: auto;
+    padding: 10px;
+}
+
+.posibilityDescription {
+    width: auto;
+    padding: 10px;
+}
+
+#aci {
+    margin: 0;
+    padding: 5vw;
+    float: left;
+    width: auto;
+    color: #000;
+}
+#footer{
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    width: 100%;
+    height: 20vh;
+    background: #000;
+    position: relative;
+}
+
+#contactDetails {
+    position: absolute;
+    bottom: 0;
+    padding: 2vw;
+}
+
+#links {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 2vw;
+}
